@@ -22,8 +22,6 @@ struct ContentView: View {
                          image: #imageLiteral(resourceName: "pattern")),
     ]
     
-    var contacts: [String] = ["Giuseppe", "Luca", "Matteo", "Edoardo", "Seby", "Gabriele", "Dario"]
-    
     var body: some View {
         VStack(alignment: .leading) {
             Text("Programming Books")
@@ -50,17 +48,7 @@ struct ContentView: View {
                         Text(book.link)
                             .font(.callout)
                     }
-                }
-            )
-            
-            /*
-            List(
-                contacts,
-                id: \.hash,
-                rowContent:
-            { contact in
-                Text(contact)
-            }) */
+                })
         }
     }
 }
