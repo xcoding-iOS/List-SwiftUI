@@ -1,4 +1,4 @@
-# List-SwiftUI
-Liste in SwiftUI | Update
+# NavigationView-Sheet-SwiftUI
+Navigation View and List | Update
 
-(Tutorial)[https://youtu.be/kmplzQmX1mI]
+(Tutorial)[https://youtu.be/N-V-ZZ6w-jc]
